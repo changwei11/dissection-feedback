@@ -1,6 +1,8 @@
 # LiteTracker: Leveraging Temporal Causality for Accurate Low-latency Tissue Tracking
 ![LiteTracker](assets/lite-tracker-teaser.gif)
 
+*Official code repository for **LiteTracker: Leveraging Temporal Causality for Accurate Low-latency Tissue Tracking**; published at **MICCAI 2025**.*
+
 📑 **[arXiv](https://arxiv.org/abs/2504.09904)**
 
 We propose LiteTracker, a low-latency method for tissue tracking in endoscopic video streams. LiteTracker builds on a state-of-the-art long-term point tracking method, and introduces a set of **training-free runtime optimizations**. These optimizations enable online, frame-by-frame tracking by leveraging **a temporal memory buffer** for efficient feature reuse and utilizing prior motion for **accurate track initialization**. LiteTracker demonstrates significant runtime improvements being around **7x faster than its predecessor and 2x than the state-of-the-art**. Beyond its primary focus on efficiency, LiteTracker delivers high-accuracy tracking and occlusion prediction, performing competitively on both the STIR and SuPer datasets.
